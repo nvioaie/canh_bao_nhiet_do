@@ -14,20 +14,31 @@ Dây nối
 
 2. Sơ đồ kết nối
 🔹 DHT11 / DHT22
-DHT	ESP32
-VCC	3.3V
-DATA	GPIO 4
-GND	GND
+
+  DHT	    ESP32
+  
+  VCC   	3.3V
+  
+  DATA   	GPIO 4
+  
+  GND	    GND
 
 (DATA nối điện trở 10k lên VCC)
 
 🔹 LCD I2C
-LCD	ESP32
-VCC	5V
-GND	GND
-SDA	GPIO 21
-SCL	GPIO 22
+  LCD	    ESP32
+  
+  VCC	    5V
+  
+  GND	    GND
+  
+  SDA	    GPIO 21
+  
+  SCL	    GPIO 22
+  
 🔹 Buzzer
-Buzzer	ESP32
-+	GPIO 15
--	GND
+  Buzzer	    ESP32
+  
+  +	          GPIO 15
+    
+  -	          GND
